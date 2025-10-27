@@ -45,8 +45,8 @@ const Sidebar = ({ fullName, avatar, email }: Props) => {
                   )}
                 >
                   <Image
-                    src={avatar}
-                    alt="name"
+                    src={icon}
+                    alt={name}
                     width={24}
                     height={24}
                     className={cn(
